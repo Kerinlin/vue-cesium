@@ -16,6 +16,10 @@ onMounted(() => {
 .home {
   width: 100vw;
   height: 100vh;
-  background-color: #0a0a0a;
+  background-color: #fff;
+  #mapBox {
+    width: 100%;
+    height: 100%;
+  }
 }
 </style>

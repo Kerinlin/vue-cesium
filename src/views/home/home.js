@@ -7,10 +7,10 @@ export function createCesiumInstance(id) {
     showRenderLoopErrors: true,
     navigationHelpButton: false, //帮助按钮
     sceneModePicker: false,
-    animation: false, //动画控制，默认true
-    baseLayerPicker: false, //地图切换控件(底图以及地形图)是否显示,默认显示true
+    animation: true, //动画控制，默认true
+    baseLayerPicker: true, //地图切换控件(底图以及地形图)是否显示,默认显示true
     fullscreenButton: false, //全屏按钮,默认显示true
-    geocoder: false, //地名查找,默认true
+    geocoder: true, //地名查找,默认true
     timeline: false, //时间线,默认true
     vrButton: false, //双屏模式,默认不显示false
     homeButton: false, //主页按钮，默认true
