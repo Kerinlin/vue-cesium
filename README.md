@@ -1,5 +1,3 @@
-# vue-next-vite-template
+# vue-cesium
 
-1. 内置代码风格校验工具 eslint,prettier
-2. 内置 unocss
-3. 内置 vue-router,vuex
+[星图地球 cesium 接入例子](https://datacloud.geovisearth.com/support/sdk/cesium_native)的 vue3 版本

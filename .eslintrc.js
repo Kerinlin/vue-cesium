@@ -26,5 +26,8 @@ module.exports = {
   rules: {
     semi: ['warn', 'always'],
     'prettier/prettier': 'error',
+    'vue/multi-word-component-names': 0,
+    'no-unused-vars': 1,
+    'no-constant-condition': 1,
   },
 };

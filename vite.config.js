@@ -4,6 +4,7 @@ import vue from '@vitejs/plugin-vue';
 import eslintPlugin from 'vite-plugin-eslint';
 import Unocss from 'unocss/vite';
 import { presetUno, presetAttributify } from 'unocss';
+import cesium from 'vite-plugin-cesium';
 export default defineConfig({
   plugins: [
     vue(),
@@ -32,6 +33,7 @@ export default defineConfig({
         'flex-start': 'flex flex-row justify-start items-center',
       },
     }),
+    cesium(),
   ],
   resolve: {
     alias: {
